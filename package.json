@@ -1,0 +1,24 @@
+{
+  "name": "todo-bucket",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.15.0",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "prepare": "lefthook install",
+    "check": "biome check .",
+    "fix": "biome check --write .",
+    "lint:deps": "depcruise apps packages --config .dependency-cruiser.cjs",
+    "typecheck": "pnpm -r run typecheck",
+    "test": "pnpm -r run test",
+    "build": "pnpm lint:deps && pnpm -r run build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.6.2",
+    "dependency-cruiser": "18.7.0",
+    "lefthook": "2.2.2",
+    "typescript": "6.0.3"
+  }
+}

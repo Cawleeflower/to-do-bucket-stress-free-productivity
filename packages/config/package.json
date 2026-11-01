@@ -1,0 +1,5 @@
+{
+  "name": "@todo-bucket/config",
+  "private": true,
+  "type": "module"
+}

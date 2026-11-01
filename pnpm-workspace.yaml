@@ -1,0 +1,12 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# Don't install a version until it is 7 days old (same as the Dependabot cooldown).
+minimumReleaseAge: 10080
+
+# Dependencies allowed to run install scripts. Everything else is blocked.
+allowBuilds:
+  esbuild: true
+  workerd: true
+  lefthook: false
