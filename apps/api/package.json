@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@todo-bucket/contracts": "workspace:*",
-    "hono": "^4.13.13"
+    "hono": "^4.13.14"
   },
   "devDependencies": {
     "@cloudflare/vitest-plugin": "^1.4.7",
