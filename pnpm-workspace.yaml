@@ -1,5 +1,9 @@
 blockExoticSubdeps: true
 trustPolicy: no-downgrade
+# Known trust downgrades, reviewed and allowed. Pinned to exact versions so newer releases are still checked.
+trustPolicyExclude:
+  - lefthook@2.2.2
+  - semver@6.3.1
 packages:
   - "apps/*"
   - "packages/*"
