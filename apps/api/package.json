@@ -7,15 +7,17 @@
     "build": "wrangler deploy --dry-run --outdir dist",
     "cf-typegen": "wrangler types",
     "typecheck": "tsc",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@todo-bucket/contracts": "workspace:*",
     "hono": "^4.13.13"
   },
   "devDependencies": {
-    "@cloudflare/vitest-plugin": "^1.4.7",
+    "@cloudflare/vitest-plugin": "^1.4.9",
+    "@vitest/coverage-istanbul": "4.1.12",
     "vitest": "4.1.12",
-    "wrangler": "^4.152.0"
+    "wrangler": "^4.154.0"
   }
 }

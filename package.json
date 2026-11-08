@@ -13,7 +13,8 @@
     "lint:deps": "depcruise apps packages --config .dependency-cruiser.cjs",
     "typecheck": "pnpm -r run typecheck",
     "test": "pnpm -r run test",
-    "build": "pnpm lint:deps && pnpm -r run build"
+    "build": "pnpm lint:deps && pnpm -r run build",
+    "test:coverage": "pnpm -r run test:coverage"
   },
   "devDependencies": {
     "@biomejs/biome": "2.6.2",
