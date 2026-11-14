@@ -17,8 +17,8 @@
     "test:coverage": "pnpm -r run test:coverage"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.2",
-    "dependency-cruiser": "18.7.0",
+    "@biomejs/biome": "2.6.6",
+    "dependency-cruiser": "18.7.2",
     "lefthook": "2.2.2",
     "typescript": "6.0.3"
   }
