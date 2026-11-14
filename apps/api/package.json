@@ -12,12 +12,12 @@
   },
   "dependencies": {
     "@todo-bucket/contracts": "workspace:*",
-    "hono": "^4.13.13"
+    "hono": "^4.13.16"
   },
   "devDependencies": {
-    "@cloudflare/vitest-plugin": "^1.4.9",
+    "@cloudflare/vitest-plugin": "^1.6.0",
     "@vitest/coverage-istanbul": "4.1.12",
     "vitest": "4.1.12",
-    "wrangler": "^4.154.0"
+    "wrangler": "^4.158.0"
   }
 }
