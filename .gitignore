@@ -7,3 +7,5 @@ coverage/
 *.log
 # pnpm repo: an npm lockfile here is always an accident
 package-lock.json
+# personal notes: never committed, and Biome skips it via useIgnoreFile
+notes/
